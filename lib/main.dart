@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'core/di/injection.dart';
-import 'features/library/presentation/screens/library_screen.dart';
+import 'injection.dart';
+import 'library_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
