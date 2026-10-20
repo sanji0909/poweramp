@@ -25,6 +25,9 @@ jobs:
           flutter-version: '3.19.x'
           channel: 'stable'
 
+      - name: Create native Android/iOS scaffolding
+        run: flutter create . --platforms=android --org com.example.powerampclone
+
       - name: Install dependencies
         run: flutter pub get
 
